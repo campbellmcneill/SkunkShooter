@@ -2148,3 +2148,51 @@ Recommended: 24.3.1 or latest driver available
 [2025.02.01-15.19.56:516][  6]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
 [2025.02.01-15.19.56:516][  6]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
 [2025.02.01-15.19.56:517][  6]AssetCheck: /Game/FirstPerson/Maps/FirstPersonMap Validating asset
+[2025.02.01-15.21.23:057][282]LogShaderCompilers: Display: ================================================
+[2025.02.01-15.21.23:058][282]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.02.01-15.21.23:058][282]LogShaderCompilers: Display: Total job queries 650, among them cache hits 16 (2.46%), DDC hits 0 (0.00%), Duplicates 43 (6.62%)
+[2025.02.01-15.21.23:058][282]LogShaderCompilers: Display: Tracking 591 distinct input hashes that result in 483 distinct outputs (81.73%)
+[2025.02.01-15.21.23:058][282]LogShaderCompilers: Display: RAM used: 350.96 KiB of 819.20 MiB budget. Usage: 0.04%
+[2025.02.01-15.21.23:058][282]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.02.01-15.21.23:058][282]LogShaderCompilers: Display: Shaders Compiled: 591
+[2025.02.01-15.21.23:058][282]LogShaderCompilers: Display: Jobs assigned 591, completed 591 (100%)
+[2025.02.01-15.21.23:058][282]LogShaderCompilers: Display: Average time worker was idle: 73.84 s
+[2025.02.01-15.21.23:058][282]LogShaderCompilers: Display: Time job spent in pending queue: average 36.70 s, longest 163.01 s
+[2025.02.01-15.21.23:058][282]LogShaderCompilers: Display: Job execution time: average 19.01 s, max 115.56 s
+[2025.02.01-15.21.23:058][282]LogShaderCompilers: Display: Job life time (pending + execution): average 55.71 s, max 167.26
+[2025.02.01-15.21.23:058][282]LogShaderCompilers: Display: Shader code size: average 11.874 KiB, min 200 B, max 78.59 KiB
+[2025.02.01-15.21.23:058][282]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 271.76 s
+[2025.02.01-15.21.23:058][282]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.00%
+[2025.02.01-15.21.23:058][282]LogShaderCompilers: Display: Jobs were issued in 125 batches (only local compilation was used), average 4.73 jobs/batch
+[2025.02.01-15.21.23:058][282]LogShaderCompilers: Display: Average processing rate: 2.17 jobs/sec
+[2025.02.01-15.21.23:058][282]LogShaderCompilers: Display: Total thread time: 1,296.571 s
+[2025.02.01-15.21.23:058][282]LogShaderCompilers: Display: Total thread preprocess time: 12.534 s
+[2025.02.01-15.21.23:058][282]LogShaderCompilers: Display: Percentage time preprocessing: 0.97%
+[2025.02.01-15.21.23:058][282]LogShaderCompilers: Display: Effective parallelization: 4.77 (times faster than compiling all shaders on one thread). Compare with number of workers: 4
+[2025.02.01-15.21.23:058][282]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.02.01-15.21.23:058][282]LogShaderCompilers: Display:                           FRenderVolumetricCloudRenderViewCS (compiled   68 times, average 10.21 sec, max 18.70 sec, min 4.22 sec)
+[2025.02.01-15.21.23:058][282]LogShaderCompilers: Display:                                        FCloudRenderViewPS111 (compiled    1 times, average 9.04 sec, max 9.04 sec, min 9.04 sec)
+[2025.02.01-15.21.23:058][282]LogShaderCompilers: Display:                                        FCloudRenderViewPS011 (compiled    1 times, average 8.45 sec, max 8.45 sec, min 8.45 sec)
+[2025.02.01-15.21.23:058][282]LogShaderCompilers: Display:                                        FCloudRenderViewPS001 (compiled    1 times, average 6.60 sec, max 6.60 sec, min 6.60 sec)
+[2025.02.01-15.21.23:058][282]LogShaderCompilers: Display:                                        FCloudRenderViewPS010 (compiled    1 times, average 6.50 sec, max 6.50 sec, min 6.50 sec)
+[2025.02.01-15.21.23:058][282]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.02.01-15.21.23:058][282]LogShaderCompilers: Display:                           FRenderVolumetricCloudRenderViewCS - 53.53% of total time (compiled   68 times, average 10.21 sec, max 18.70 sec, min 4.22 sec)
+[2025.02.01-15.21.23:058][282]LogShaderCompilers: Display:                                             FDebugViewModePS - 6.41% of total time (compiled   23 times, average 3.61 sec, max 5.35 sec, min 2.63 sec)
+[2025.02.01-15.21.23:058][282]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 4.23% of total time (compiled   44 times, average 1.25 sec, max 3.06 sec, min 0.77 sec)
+[2025.02.01-15.21.23:058][282]LogShaderCompilers: Display:                                                  FVelocityPS - 3.07% of total time (compiled   25 times, average 1.59 sec, max 2.10 sec, min 1.14 sec)
+[2025.02.01-15.21.23:058][282]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 2.85% of total time (compiled   38 times, average 0.97 sec, max 2.22 sec, min 0.50 sec)
+[2025.02.01-15.21.23:058][282]LogShaderCompilers: Display: === Material stats ===
+[2025.02.01-15.21.23:058][282]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.02.01-15.21.23:058][282]LogShaderCompilers: Display: Materials Translated:    139
+[2025.02.01-15.21.23:058][282]LogShaderCompilers: Display: Material Total Translate Time: 0.16 s
+[2025.02.01-15.21.23:058][282]LogShaderCompilers: Display: Material Translation Only: 0.08 s (53%)
+[2025.02.01-15.21.23:058][282]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+[2025.02.01-15.21.23:058][282]LogShaderCompilers: Display: Material Cache Hits: 0 (0%)
+[2025.02.01-15.21.23:058][282]LogShaderCompilers: Display: ================================================
+[2025.02.01-15.24.37:785][866]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3272.397217
+[2025.02.01-15.24.38:784][869]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.02.01-15.24.38:784][869]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3273.064453, Update Interval: 306.564545
+[2025.02.01-15.30.22:581][901]LogDerivedDataCache: C:/Users/me/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.02.01-15.30.40:591][954]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3635.205811
+[2025.02.01-15.30.41:594][957]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.02.01-15.30.41:595][957]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3635.874512, Update Interval: 348.187500
