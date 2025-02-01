@@ -1,0 +1,14 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"C:/Users/me/Code/Unreal Projects/SkunkShooter/Content/StarterContent/Architecture/Floor_400x400.uasset",
+				"C:/Users/me/Code/Unreal Projects/SkunkShooter/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/Z3/56AF9S23G83BC826AIUOT0.uasset",
+				"C:/Users/me/Code/Unreal Projects/SkunkShooter/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/E/BY/3QMZ7YJGZH3VZJNVLO12Z1.uasset"
+			]
+		}
+	]
+}
