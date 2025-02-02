@@ -3080,3 +3080,119 @@ Recommended: 24.3.1 or latest driver available
 [2025.02.02-18.43.12:025][745]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 101651.609375
 [2025.02.02-18.43.13:028][748]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
 [2025.02.02-18.43.13:028][748]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 101652.273438, Update Interval: 334.672089
+[2025.02.02-18.49.19:775][848]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 102020.015625
+[2025.02.02-18.49.20:779][851]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.02.02-18.49.20:779][851]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 102020.687500, Update Interval: 350.513000
+[2025.02.02-18.56.02:860][ 57]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 102423.640625
+[2025.02.02-18.56.03:846][ 60]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.02.02-18.56.03:846][ 60]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 102424.312500, Update Interval: 358.795135
+[2025.02.02-18.58.02:076][632]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.02.02-18.58.02:084][632]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.02.02-18.58.02:084][632]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2025.02.02-18.58.02:089][632]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 5.360 ms (total: 15.930 ms)
+[2025.02.02-18.58.02:089][632]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.02.02-18.58.02:090][632]LogPlayLevel: Display: Creating online subsystem for client :Context_9
+[2025.02.02-18.58.02:094][632]LogOnline: OSS: Created online subsystem instance for: :Context_9
+[2025.02.02-18.58.02:136][633]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2025.02.02-18.58.02:150][633]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013397s)
+[2025.02.02-18.58.02:150][633]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.013523s)
+[2025.02.02-18.58.02:181][633]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2025.02.02-18.58.02:186][633]LogChaosDD: Creating Chaos Debug Draw Scene for world FirstPersonMap
+[2025.02.02-18.58.02:188][633]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM5) returned false, for scene: 'World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap'.
+[2025.02.02-18.58.02:189][633]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.02.02-18.58.02:189][633]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.02.02-18.58.02:189][633]LogWorldPartition: UWorldPartition::Initialize : World = /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.02.02-18.58.02:189][633]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.02.02-18.58.02:191][633]LogWorldPartition: Display: WorldPartition initialize took 2.357 ms (total: 176.349 ms)
+[2025.02.02-18.58.02:191][633]LogPlayLevel: PIE: World Init took: (0.005557s)
+[2025.02.02-18.58.02:193][633]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2025.02.02-18.58.02:193][633]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.02.02-18.58.02:193][633]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.02.02-18.58.02:193][633]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.02.02-18.58.02:193][633]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.02.02-18.58.02:193][633]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2025.02.02-18.58.02:193][633]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.02.02-18.58.02:193][633]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2025.02.02-18.58.02:193][633]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.02.02-18.58.02:193][633]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.02.02-18.58.02:193][633]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.02.02-18.58.02:193][633]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.02.02-18.58.02:197][633]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.02.02-18.58.02:216][633]LogAudioMixer: Display: Using Audio Hardware Device Digital Audio (S/PDIF) (High Definition Audio Device)
+[2025.02.02-18.58.02:228][633]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.02.02-18.58.02:228][633]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.02.02-18.58.02:228][633]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.02.02-18.58.02:230][633]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2025.02.02-18.58.02:230][633]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2025.02.02-18.58.02:233][633]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2025.02.02-18.58.02:233][633]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2025.02.02-18.58.02:233][633]LogInit: FAudioDevice initialized with ID 4.
+[2025.02.02-18.58.02:233][633]LogAudio: Display: Audio Device (ID: 4) registered with world 'FirstPersonMap'.
+[2025.02.02-18.58.02:233][633]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 4
+[2025.02.02-18.58.02:246][633]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2025.02.02-18.58.02:251][633]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2025.02.02-12.58.02
+[2025.02.02-18.58.02:252][633]LogWorld: Bringing up level for play took: 0.004764
+[2025.02.02-18.58.02:258][633]PIE: Server logged in
+[2025.02.02-18.58.02:259][633]PIE: Play in editor total start time 0.175 seconds.
+[2025.02.02-18.58.27:790][511]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.02-18.58.27:790][511]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2025.02.02-18.58.27:790][511]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.02.02-18.58.27:791][511]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.02-18.58.27:791][511]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap
+[2025.02.02-18.58.27:804][511]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.02.02-18.58.27:808][511]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.02-18.58.27:822][511]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.02-18.58.27:822][511]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 4
+[2025.02.02-18.58.27:822][511]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2025.02.02-18.58.27:825][511]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2025.02.02-18.58.27:832][511]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2025.02.02-18.58.27:992][512]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2025.02.02-18.59.14:834][968]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2025.02.02-18.59.14:841][968]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/7/L5/1ZJ54FMA0DAL3I2Q8RFAIB_Auto2
+[2025.02.02-18.59.14:841][968]LogSavePackage: Moving '../../../../../../Users/me/Code/Unreal Projects/SkunkShooter/Saved/1ZJ54FMA0DAL3I2Q8RFAIB_Auto24CF0265B4695620C745C459F0F2F1A29.tmp' to '../../../../../../Users/me/Code/Unreal Projects/SkunkShooter/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/7/L5/1ZJ54FMA0DAL3I2Q8RFAIB_Auto2.uasset'
+[2025.02.02-18.59.14:844][968]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Maps/FirstPersonMap' took 0.040
+[2025.02.02-18.59.14:844][968]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.040
+[2025.02.02-19.00.44:742][238]LogShaderCompilers: Display: ================================================
+[2025.02.02-19.00.44:743][238]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.02.02-19.00.44:743][238]LogShaderCompilers: Display: Total job queries 652, among them cache hits 16 (2.45%), DDC hits 0 (0.00%), Duplicates 43 (6.60%)
+[2025.02.02-19.00.44:743][238]LogShaderCompilers: Display: Tracking 593 distinct input hashes that result in 485 distinct outputs (81.79%)
+[2025.02.02-19.00.44:743][238]LogShaderCompilers: Display: RAM used: 351.67 KiB of 819.20 MiB budget. Usage: 0.04%
+[2025.02.02-19.00.44:743][238]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.02.02-19.00.44:743][238]LogShaderCompilers: Display: Shaders Compiled: 593
+[2025.02.02-19.00.44:743][238]LogShaderCompilers: Display: Jobs assigned 593, completed 593 (100%)
+[2025.02.02-19.00.44:743][238]LogShaderCompilers: Display: Average time worker was idle: 1705.09 s
+[2025.02.02-19.00.44:743][238]LogShaderCompilers: Display: Time job spent in pending queue: average 36.57 s, longest 163.01 s
+[2025.02.02-19.00.44:743][238]LogShaderCompilers: Display: Job execution time: average 18.96 s, max 115.56 s
+[2025.02.02-19.00.44:743][238]LogShaderCompilers: Display: Job life time (pending + execution): average 55.53 s, max 167.26
+[2025.02.02-19.00.44:743][238]LogShaderCompilers: Display: Shader code size: average 11.852 KiB, min 200 B, max 78.59 KiB
+[2025.02.02-19.00.44:743][238]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 274.11 s
+[2025.02.02-19.00.44:743][238]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.00%
+[2025.02.02-19.00.44:743][238]LogShaderCompilers: Display: Jobs were issued in 127 batches (only local compilation was used), average 4.67 jobs/batch
+[2025.02.02-19.00.44:743][238]LogShaderCompilers: Display: Average processing rate: 2.16 jobs/sec
+[2025.02.02-19.00.44:744][238]LogShaderCompilers: Display: Total thread time: 1,298.159 s
+[2025.02.02-19.00.44:744][238]LogShaderCompilers: Display: Total thread preprocess time: 12.585 s
+[2025.02.02-19.00.44:744][238]LogShaderCompilers: Display: Percentage time preprocessing: 0.97%
+[2025.02.02-19.00.44:744][238]LogShaderCompilers: Display: Effective parallelization: 4.74 (times faster than compiling all shaders on one thread). Compare with number of workers: 4
+[2025.02.02-19.00.44:744][238]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.02.02-19.00.44:744][238]LogShaderCompilers: Display:                           FRenderVolumetricCloudRenderViewCS (compiled   68 times, average 10.21 sec, max 18.70 sec, min 4.22 sec)
+[2025.02.02-19.00.44:744][238]LogShaderCompilers: Display:                                        FCloudRenderViewPS111 (compiled    1 times, average 9.04 sec, max 9.04 sec, min 9.04 sec)
+[2025.02.02-19.00.44:744][238]LogShaderCompilers: Display:                                        FCloudRenderViewPS011 (compiled    1 times, average 8.45 sec, max 8.45 sec, min 8.45 sec)
+[2025.02.02-19.00.44:744][238]LogShaderCompilers: Display:                                        FCloudRenderViewPS001 (compiled    1 times, average 6.60 sec, max 6.60 sec, min 6.60 sec)
+[2025.02.02-19.00.44:744][238]LogShaderCompilers: Display:                                        FCloudRenderViewPS010 (compiled    1 times, average 6.50 sec, max 6.50 sec, min 6.50 sec)
+[2025.02.02-19.00.44:744][238]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.02.02-19.00.44:744][238]LogShaderCompilers: Display:                           FRenderVolumetricCloudRenderViewCS - 53.46% of total time (compiled   68 times, average 10.21 sec, max 18.70 sec, min 4.22 sec)
+[2025.02.02-19.00.44:744][238]LogShaderCompilers: Display:                                             FDebugViewModePS - 6.40% of total time (compiled   23 times, average 3.61 sec, max 5.35 sec, min 2.63 sec)
+[2025.02.02-19.00.44:744][238]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 4.29% of total time (compiled   45 times, average 1.24 sec, max 3.06 sec, min 0.77 sec)
+[2025.02.02-19.00.44:744][238]LogShaderCompilers: Display:                                                  FVelocityPS - 3.07% of total time (compiled   25 times, average 1.59 sec, max 2.10 sec, min 1.14 sec)
+[2025.02.02-19.00.44:744][238]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 2.90% of total time (compiled   39 times, average 0.97 sec, max 2.22 sec, min 0.50 sec)
+[2025.02.02-19.00.44:744][238]LogShaderCompilers: Display: === Material stats ===
+[2025.02.02-19.00.44:744][238]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.02.02-19.00.44:744][238]LogShaderCompilers: Display: Materials Translated:    139
+[2025.02.02-19.00.44:745][238]LogShaderCompilers: Display: Material Total Translate Time: 0.16 s
+[2025.02.02-19.00.44:745][238]LogShaderCompilers: Display: Material Translation Only: 0.08 s (53%)
+[2025.02.02-19.00.44:745][238]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+[2025.02.02-19.00.44:745][238]LogShaderCompilers: Display: Material Cache Hits: 0 (0%)
+[2025.02.02-19.00.44:745][238]LogShaderCompilers: Display: ================================================
+[2025.02.02-19.02.51:140][617]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 102832.195312
+[2025.02.02-19.02.52:143][620]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.02.02-19.02.52:143][620]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 102832.867188, Update Interval: 340.813629
